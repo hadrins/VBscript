@@ -40,3 +40,5 @@ For Each Folder In SubFolders
 	Wscript.Echo Tmp & " " & Folder.Path
 Next
 
+wscript.echo "Press enter to exit"
+Input = wscript.stdin.Read(1)

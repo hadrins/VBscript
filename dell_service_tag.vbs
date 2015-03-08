@@ -5,3 +5,5 @@ For each objitem in colitems
 Wscript.echo "Dell Service Tag: " & objitem.serialnumber
 Next 
 
+wscript.echo "Press enter to exit"
+Input = wscript.stdin.Read(1)
