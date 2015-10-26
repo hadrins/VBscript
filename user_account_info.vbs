@@ -41,3 +41,6 @@ WScript.Echo dtm:
 	Mid(dtmDate, 7, 2) & "/" & Left(dtmDate, 4) _
 	& " " & Mid (dtmDate, 9, 2) & ":" & Mid(dtmDate, 11, 2) & ":" & Mid(dtmDate,13, 2))
 End Function
+
+wscript.echo "Press enter to exit"
+Input = wscript.stdin.Read(1)
