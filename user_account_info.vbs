@@ -8,7 +8,7 @@
 Const wbemFlagReturnImmediately = &h10
 Const wbemFlagForwardOnly = &h20
 
-arrComputers = Array("PC")
+arrComputers = Array(".")
 For Each strComputer In arrComputers
    Wscript.Echo " " &vbCrLf &_
     "==========================================" &vbCrLf &_
